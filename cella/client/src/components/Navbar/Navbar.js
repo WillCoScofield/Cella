@@ -33,18 +33,13 @@ const Navbar = props => (
             link2
           </Link>
         </li>
-        <li
-          className={
-            window.location.pathname === "/link3"
-              ? "nav-item active"
-              : "nav-item"
-          }
-        >
-          <Link to="/link3" className="nav-link">
-            link3
-          </Link>
-        </li>
       </ul>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term" />
+        <div class="input-group-btn">
+          <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+        </div>
+      </div>
     </div>
   </nav>
 );
