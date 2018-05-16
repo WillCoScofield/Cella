@@ -1,2 +1,2 @@
-export { default } from "./Listing";
+export { default } from "./List";
 
