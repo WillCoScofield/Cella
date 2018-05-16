@@ -3,9 +3,9 @@ import React from "react";
 
 
 const Map = props => (
-    <div className="card">
+    <div>
         <div className="img-container">
-            <img alt={props.name} src={props.image} />
+            <img src={props.image} />
         </div>
     </div>
 );
