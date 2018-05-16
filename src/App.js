@@ -1,25 +1,24 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import logo from './logo.svg';
 import './App.css';
+import Navbar from "./components/Navbar";
+import Wrapper from "./components/Wrapper";
 import Search from "./pages/Search.js"
 
-class App extends Component {
-  render() {
-    return (
+const App = () => (
 
       <Router>
+        
         <div>
-       
+        <Navbar />
+        <Wrapper>
           <Route exact path="/" component={Search} />
-        </div>
+        </Wrapper>
 
+        {/* <Footer /> */}
+        </div>
       </Router>
 
-
-
-    );
-  }
-}
+  );
 
 export default App;

@@ -1,10 +1,10 @@
 
 import React from "react";
-
+import "./map.css";
 
 const Map = props => (
     <div>
-        <div className="img-container">
+        <div className="mapImage">
             <img src={props.image} />
         </div>
     </div>

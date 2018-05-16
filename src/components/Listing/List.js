@@ -11,6 +11,8 @@ const List = props => (
         <ul>
           <li>
             <strong>Name:</strong> {props.name}
+            </li>
+            <li>
             <strong>Location:</strong> {props.location}
           </li>
         </ul>
