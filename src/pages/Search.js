@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Navbar from "../components/Navbar";
-import Wrapper from "../components/Wrapper";
+
 import List from "../components/Listing";
 import Map from "../components/Map"
 
@@ -10,7 +9,7 @@ class Search extends Component {
       listName: "Warehouse",
       listLocation: "Atlanta",
       listImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0IyjG9GY-DYRCUxS9wYvIdjA6rzhjj8YJisFfyMmIfU0zmIKwMw",
-      map: "https://www.jqueryscript.net/images/Show-Nearby-Places-jQuery-Google-Maps-WhatsNearby.jpg"
+      map: "http://joomly.net/frontend/web/images/googlemap/map.png"
       
     };
   
@@ -43,15 +42,21 @@ class Search extends Component {
      
         <div>
            
-            <Wrapper>
-                <Navbar/>
+           
                 <div class="row">
                     <div class="col-sm-6">
+                    
                     <List
                     name = {this.state.listName}
                     image = {this.state.listImage}
                     location = {this.state.listLocation}
                     />
+                    <List
+                    name = {this.state.listName}
+                    image = {this.state.listImage}
+                    location = {this.state.listLocation}
+                    />
+                  
 
                     </div>
                     <Map
@@ -63,7 +68,7 @@ class Search extends Component {
                     </div>
                 </div>
 
-            </Wrapper>
+        
 
         </div>
   
