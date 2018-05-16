@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import NavSearch from "./NavSearch";
+// import NavSearch from "./NavSearch";
 import "./Navbar.css";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
@@ -35,7 +35,7 @@ const Navbar = props => (
           </Link>
         </li>
       </ul>
-      <NavSearch />
+      {/* <NavSearch /> */}
     </div>
   </nav>
 );
