@@ -2,12 +2,17 @@
     background: #fff;
     border-radius: 2px;
     height: 300px;
-    margin: 1rem;
+    /* margin: 1rem; */
     position: relative;
-    width: 300px;
+    width: 46%;
+    -webkit-box-shadow: 0 3px 6px #999, 0 3px 6px #999;
     box-shadow: 0 3px 6px #999, 0 3px 6px #999;
     text-align: left;
-  }
+    float: left;
+    margin-bottom: 25px;
+    margin-left: 27px;
+}
+
   
   .card > .img-container {
     height: 100%;
