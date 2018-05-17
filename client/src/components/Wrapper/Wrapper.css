@@ -1,4 +1,6 @@
 .wrapper {
     height: 100vh;
     overflow-y: hidden;
+    margin-top:84px;
+    background-image:url(./wrapperImages/blueBckd.jpg);
 }
