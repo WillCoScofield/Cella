@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-
 import List from "../components/Listing";
 import Map from "../components/Map"
+import SearchResultsContainer from "../components/SearchResultsContainer/SearchResultsContainer";
 
 class Search extends Component {
     state = {
@@ -45,19 +45,7 @@ class Search extends Component {
            
                 <div class="row">
                     <div class="col-sm-6">
-                    
-                    <List
-                    name = {this.state.listName}
-                    image = {this.state.listImage}
-                    location = {this.state.listLocation}
-                    />
-                    <List
-                    name = {this.state.listName}
-                    image = {this.state.listImage}
-                    location = {this.state.listLocation}
-                    />
-                  
-
+                    <SearchResultsContainer/>
                     </div>
                     <Map
                     image = {this.state.map}
