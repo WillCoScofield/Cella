@@ -47,12 +47,13 @@ class Search extends Component {
                     <div class="col-sm-6">
                     <SearchResultsContainer/>
                     </div>
+                  
+                    <div class="col-sm-6">
                     <Map
                     image = {this.state.map}
-                    />
-                    <div class="col-sm-6">
+                     />
+                
 
-                    <Map/>
                     </div>
                 </div>
 

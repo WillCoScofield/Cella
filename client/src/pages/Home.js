@@ -1,18 +1,32 @@
-import React, {Component} from "react";
-import {BrowserRouter as Router, Route} from "react-router-dom";
+import React, { Component } from "react";
 import Navbar from "../components/Navbar";
 import Wrapper from "../components/Navbar";
 
-const App = () => (
-    <Router>
-        <div>
-            <Navbar />
-            <Wrapper>
-            </Wrapper>
+const Home = () => (
+
+    <div>
+        <div class="row">
+            <div class="col-sm-6">
+                <p>We’ll help you find storage space for any and EVERYTHING you could ever imagine.  Your temporary or permanent storage solution is one easy search away!</p>
+                <p>Use SpaceHolder to gain access to traditional and non-traditional storage solutions.</p>
+            </div>
+
+
+            <div class="col-sm-6">
+            
+            <img className="HomeImage" src='./images/sideElement.png' />
+            </div>
+
+
+
+
+
 
         </div>
-    </Router>
+
+    </div>
+
 );
 
-export default App;
+export default Home;
 
