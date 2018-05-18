@@ -1,9 +1,11 @@
 const express = require("express");
 const path = require("path");
-
 const bodyParser = require("body-parser");
-const PORT = process.env.PORT || 3001;
+const routes = require("./routes")
+const mongoose = require ("mongoose");
 const app = express();
+
+const PORT = process.env.PORT || 3001;
 
 // Define middleware here
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -18,6 +20,7 @@ if (process.env.NODE_ENV === "production") {
 
 //Routes for: 
 app.use(routes)
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/cella");
 
 
 // Send every other request to the React app
