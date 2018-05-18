@@ -1,7 +1,12 @@
 .HomeImage{
-    width:100%
+    width:100%;
+    height: 100%;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    z-index: 5;
 }
 
-.HomeImageDiv{
-    margin-top:200px;
+.HomeImageDiv {
+    height: 100vh;
 }

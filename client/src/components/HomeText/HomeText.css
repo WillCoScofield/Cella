@@ -7,3 +7,15 @@
     padding:0px;
     width:45%;
 }
+
+.HomeTextDiv {
+    margin-top: 200px;
+    padding: 0px 25px 0px 25px;
+    vertical-align: middle;
+}
+
+.HomeTextDiv h1 {
+    letter-spacing: 2px;
+    color: gray;
+    line-height: 70px;
+}
