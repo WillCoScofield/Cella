@@ -9,6 +9,7 @@ import HomeText from "../components/HomeText";
 const Home = () => (
 
     <div>
+
         <div class="row">
             <div class="col-sm-6">
             <HomeText />
@@ -17,7 +18,7 @@ const Home = () => (
 
             <div class="col-sm-6">
             <HomeImage />
-           
+          
             </div>
         </div>
 
