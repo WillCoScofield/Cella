@@ -2,7 +2,7 @@ import React from "react";
 import axios from "axios";
 
 const key = process.env.GOOGLE_API;
-let queryURL = "https://maps.googleapis.com/maps/api/geocode/json?address=" + props.address + "&key=" + key;
+let queryURL = "https://maps.googleapis.com/maps/api/geocode/json?address=Atlanta&key=" + key;
 
 export default {
 

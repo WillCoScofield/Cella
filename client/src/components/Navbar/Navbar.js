@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 // import NavSearch from "./NavSearch";
 import Logo from "../Logo";
 import "./Navbar.css";
+import NavSearch from "../NavSearch";
 
 
 
@@ -39,7 +40,7 @@ const Navbar = props => (
           </Link>
         </li>
       </ul>
-      {/* <NavSearch /> */}
+      <NavSearch />
     </div>
   </nav>
 );

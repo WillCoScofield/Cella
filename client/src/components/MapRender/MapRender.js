@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
 import "./MapRender.css";
+import pos from "../../utils/API.js"
 
 const AnyReactComponent = ({ text }) => <div>{ text }</div>;
 export default class Map extends Component {
   static defaultProps = {
-    center: { lat: 40.7446790, lng: -73.9485420 },
+    center: { lat: pos.lat, lng: pos.lng },
     zoom: 11
   }
 render() {
