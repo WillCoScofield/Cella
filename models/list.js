@@ -3,12 +3,15 @@ const Schema = mongoose.Schema;
 
 const listSchema = new Schema({
     type: { type: String, required: true },
-    SquareFeet: { type: String, required: true },
+    image: {type: String, required: false },
+    SquareFeet: { type: Number, required: true },
     Price: { type: Number, required: true },
     Address: { type: String, required: true },
     Description: { type: String, required: true },
-    YearBuilt: { type: Number, required: true },
+    YearBuilt: { type: String, required: true },
     Features: {type: String, required: true},
+    Latitude: {type: Number, required: true},
+    Longitude: {type: Number, required: true},
     date: { type: Date, default: Date.now }
 });
 
