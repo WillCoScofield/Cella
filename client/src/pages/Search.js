@@ -1,16 +1,15 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import List from "../components/Listing";
-import Map from "../components/Map"
+import Map from "../components/Map";
 import SearchResultsContainer from "../components/SearchResultsContainer/SearchResultsContainer";
+import MapRender from "../components/MapRender";
 
 class Search extends Component {
     state = {
       listName: "Warehouse",
       listLocation: "Atlanta",
-      listImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0IyjG9GY-DYRCUxS9wYvIdjA6rzhjj8YJisFfyMmIfU0zmIKwMw",
-      map: "http://joomly.net/frontend/web/images/googlemap/map.png"
-      
+      listImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0IyjG9GY-DYRCUxS9wYvIdjA6rzhjj8YJisFfyMmIfU0zmIKwMw"
     };
   
     // When the component mounts, get a list of all available base breeds and update this.state.breeds
@@ -43,15 +42,13 @@ class Search extends Component {
         <div>
            
            
-                <div class="row">
-                    <div class="col-sm-6">
+                <div className="row">
+                    <div className="col-sm-6">
                     <SearchResultsContainer/>
                     </div>
                   
-                    <div class="col-sm-6">
-                    <Map
-                    image = {this.state.map}
-                     />
+                    <div className="col-sm-6">
+                    <MapRender />
                 
 
                     </div>
