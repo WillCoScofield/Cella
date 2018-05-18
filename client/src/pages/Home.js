@@ -19,12 +19,6 @@ const Home = () => (
             <HomeImage />
            
             </div>
-
-
-
-
-
-
         </div>
 
     </div>

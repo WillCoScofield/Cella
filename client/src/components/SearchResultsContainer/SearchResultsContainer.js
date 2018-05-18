@@ -4,7 +4,7 @@ import "../SearchResultsContainer/SearchResultsContainer.css"
 
 const SearchResultsContainer = props => (
     <div>
-        <div className="SearchResultsContainer">
+        <div className="SearchResultsContainer" id={props.id}>
             <List/>
             <List/>
             <List/>
