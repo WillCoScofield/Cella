@@ -10,6 +10,7 @@ import BodyContainer from "../components/BodyContainer/BodyContainer";
 const Home = () => (
     <BodyContainer id="home-page">
     <div>
+
         <div class="row">
             <div class="col-sm-6">
             <HomeText />
@@ -18,7 +19,7 @@ const Home = () => (
 
             <div class="col-sm-6">
             <HomeImage />
-           
+          
             </div>
         </div>
 

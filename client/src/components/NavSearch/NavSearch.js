@@ -1,4 +1,5 @@
 import React from "react";
+import "./NavSearch.css";
 
 const NavSearch = props => (
     <form className="search">

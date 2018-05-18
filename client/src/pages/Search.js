@@ -15,54 +15,25 @@ class Search extends Component {
       listLocation: "Atlanta",
       listImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0IyjG9GY-DYRCUxS9wYvIdjA6rzhjj8YJisFfyMmIfU0zmIKwMw"
     };
-  
-    // When the component mounts, get a list of all available base breeds and update this.state.breeds
-    // componentDidMount() {
-    //   API.getBaseBreedsList()
-    //     .then(res => this.setState({ breeds: res.data.message }))
-    //     .catch(err => console.log(err));
-    // }
-  
-    // handleInputChange = event => {
-    //   this.setState({ search: event.target.value });
-    // };
-  
-    // handleFormSubmit = event => {
-    //   event.preventDefault();
-    //   API.getDogsOfBreed(this.state.search)
-    //     .then(res => {
-    //       if (res.data.status === "error") {
-    //         throw new Error(res.data.message);
-    //       }
-    //       this.setState({ results: res.data.message, error: "" });
-    //     })
-    //     .catch(err => this.setState({ error: err.message }));
-    // };
+ 
+  render() {
+    return (
+      <BodyContainer id="search-page">
+
+        <div className="row">
+          <div className="col-sm-6">
+            <SearchResultsContainer />
+          </div>
+
+          <div className="col-sm-6">
+            <MapRender />
 
 
-    render() {
-      return (
-     
-        <div>
-           
-           
-                <div className="row">
-                    <div className="col-sm-6">
-                    <SearchResultsContainer/>
-                    </div>
-                  
-                    <div className="col-sm-6">
-                    <MapRender />
-                
-
-                    </div>
-                </div>
-
-        
+          </div>
         </div>
-      )
-  };
-
+      </BodyContainer>
+    );
+  }
 
 }
 
