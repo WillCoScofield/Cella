@@ -5,6 +5,10 @@ import Map from "../components/Map";
 import SearchResultsContainer from "../components/SearchResultsContainer/SearchResultsContainer";
 import MapRender from "../components/MapRender";
 
+import BodyContainer from "../components/BodyContainer/BodyContainer";
+import "../components/BodyContainer/BodyContainer.css"
+
+
 class Search extends Component {
     state = {
       listName: "Warehouse",
@@ -56,13 +60,57 @@ class Search extends Component {
 
         
 
+
+  };
+
+  // When the component mounts, get a list of all available base breeds and update this.state.breeds
+  // componentDidMount() {
+  //   API.getBaseBreedsList()
+  //     .then(res => this.setState({ breeds: res.data.message }))
+  //     .catch(err => console.log(err));
+  // }
+
+  // handleInputChange = event => {
+  //   this.setState({ search: event.target.value });
+  // };
+
+  // handleFormSubmit = event => {
+  //   event.preventDefault();
+  //   API.getDogsOfBreed(this.state.search)
+  //     .then(res => {
+  //       if (res.data.status === "error") {
+  //         throw new Error(res.data.message);
+  //       }
+  //       this.setState({ results: res.data.message, error: "" });
+  //     })
+  //     .catch(err => this.setState({ error: err.message }));
+  // };
+
+
+  render() {
+    return (
+      <BodyContainer id="search-page">
+
+        <div class="row">
+          <div class="col-sm-6">
+            <SearchResultsContainer />
+          </div>
+
+          <div class="col-sm-6">
+            <Map
+              image={this.state.map}
+            />
+
+          </div>
         </div>
-  
-      );
-    }
+
+      </BodyContainer>
+
+    );
   }
-  
-  export default Search;
-  
+}
+
+export default Search;
+
 
 
