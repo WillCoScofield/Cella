@@ -1,20 +1,23 @@
 import React, { Component } from "react";
 import Navbar from "../components/Navbar";
 import Wrapper from "../components/Navbar";
+import HomeImage from "../components/HomeImage";
+import HomeText from "../components/HomeText";
+
+
 
 const Home = () => (
 
     <div>
         <div class="row">
             <div class="col-sm-6">
-                <p>We’ll help you find storage space for any and EVERYTHING you could ever imagine.  Your temporary or permanent storage solution is one easy search away!</p>
-                <p>Use SpaceHolder to gain access to traditional and non-traditional storage solutions.</p>
+            <HomeText />
             </div>
 
 
             <div class="col-sm-6">
-            
-            <img className="HomeImage" src='./images/sideElement.png' />
+            <HomeImage />
+           
             </div>
 
 
@@ -29,4 +32,5 @@ const Home = () => (
 );
 
 export default Home;
+
 
