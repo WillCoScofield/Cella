@@ -6,3 +6,7 @@
         background: rgb(1,90,166);
     background: linear-gradient(360deg, rgba(1,90,166,1) 0%, rgba(2,193,230,1) 50%, rgba(1,90,166,1) 100%);
 }
+
+#home-page {
+    height: 700px;
+}
