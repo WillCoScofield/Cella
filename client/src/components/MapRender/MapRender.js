@@ -6,7 +6,7 @@ import pos from "../../utils/API.js"
 const AnyReactComponent = ({ text }) => <div>{ text }</div>;
 export default class Map extends Component {
   static defaultProps = {
-    center: { lat: pos.lat, lng: pos.lng },
+    center: { lat: 40.7473310, lng: -73.8517440 },
     zoom: 11
   }
 render() {
