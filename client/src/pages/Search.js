@@ -4,7 +4,6 @@ import List from "../components/Listing";
 import Map from "../components/Map";
 import SearchResultsContainer from "../components/SearchResultsContainer/SearchResultsContainer";
 import MapRender from "../components/MapRender";
-
 import BodyContainer from "../components/BodyContainer/BodyContainer";
 import "../components/BodyContainer/BodyContainer.css"
 
