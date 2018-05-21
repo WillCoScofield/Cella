@@ -3,11 +3,12 @@ import Navbar from "../components/Navbar";
 import Wrapper from "../components/Navbar";
 import HomeImage from "../components/HomeImage";
 import HomeText from "../components/HomeText";
+import BodyContainer from "../components/BodyContainer/BodyContainer";
 
 
 
 const Home = () => (
-
+    <BodyContainer id="home-page">
     <div>
 
         <div class="row">
@@ -23,6 +24,8 @@ const Home = () => (
         </div>
 
     </div>
+
+    </BodyContainer>
 
 );
 
