@@ -8,8 +8,14 @@ export default {
 
     getGeo: function(){
         return axios.get(queryURL).then(function (response){
-            var lat = response.data.results[0].geometry.location.lat;
-            var lng = response.data.results[0].geometry.location.lng;
+            let lat = response.data.results[0].geometry.location.lat;
+            let lng = response.data.results[0].geometry.location.lng;
+
+            let boundNElat = response.data.results[0].geometry.viewport.northeast.lat;
+            let boundNElng = response.data.results[0].geometry.viewport.northeast.lng;
+            let boundSWlat = response.data.results[0].geometry.viewport.southwest.lat;
+            let boundSWlng = response.data.results[0].geometry.viewport.southwest.lng;
+
         })
     }
 }

@@ -25,6 +25,7 @@ class Search extends Component {
           </div>
 
           <div className="col-sm-6">
+          
             <MapRender />
 
 
