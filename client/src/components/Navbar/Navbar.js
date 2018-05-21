@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import NavSearch from "./NavSearch";
 import Logo from "../Logo";
 import "../Navbar/Navbar.css"
 
@@ -62,7 +61,6 @@ const Navbar = props => (
           </Link>
         </li>
       </ul>
-      <NavSearch />
     </div>
   </nav>
 );

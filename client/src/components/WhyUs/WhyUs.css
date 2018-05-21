@@ -1,0 +1,10 @@
+.why-us-header h1 {
+    text-align: center;
+    margin-left: 500px;
+    margin-right: auto;
+}
+
+.why-us-item-div {
+    margin: 25px 25px 25px 25px;
+    width: 300px;
+}

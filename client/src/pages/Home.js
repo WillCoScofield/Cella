@@ -4,6 +4,7 @@ import Wrapper from "../components/Navbar";
 import HomeImage from "../components/HomeImage";
 import HomeText from "../components/HomeText";
 import BodyContainer from "../components/BodyContainer/BodyContainer";
+import WhyUs from "../components/WhyUs/WhyUs";
 
 
 
@@ -24,7 +25,6 @@ const Home = () => (
         </div>
 
     </div>
-
     </BodyContainer>
 
 );
