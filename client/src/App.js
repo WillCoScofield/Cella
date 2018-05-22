@@ -6,6 +6,7 @@ import Wrapper from "./components/Wrapper";
 import Search from "./pages/Search.js"
 import Home from "./pages/Home.js"
 import About from "./pages/About.js"
+import Contact from "./pages/Contact.js"
 
 
 const App = () => (
@@ -18,6 +19,7 @@ const App = () => (
         <Route exact path="/" component={Home} />
         <Route exact path="/Search" component={Search} />
         <Route exact path="/About" component={About} />
+        <Route exact path="/Contact" component={Contact} />
     
       </Wrapper>
 

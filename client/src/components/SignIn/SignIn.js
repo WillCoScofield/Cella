@@ -20,9 +20,9 @@ class SignIn extends React.Component {
   render() {
     return (
       <div>
-        <Button color="danger" onClick={this.toggle}>Sign In</Button>
+        <Button color="primary" onClick={this.toggle}>Sign In</Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
-          <ModalHeader toggle={this.toggle}>Sign up</ModalHeader>
+          <ModalHeader toggle={this.toggle}>Sign In</ModalHeader>
           <ModalBody>
 
           <Form>
