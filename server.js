@@ -17,11 +17,10 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
 
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/cella");
 
 //Routes for: 
 app.use(routes)
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/cella");
-
 
 // Send every other request to the React app
 // Define any API routes before this runs

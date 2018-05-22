@@ -1,7 +1,7 @@
 const router = require("express").Router();
-const listRoutes = require("./lists");
+const listingRoutes = require("./listings");
 
 // Listing routes
-router.use("/lists", listRoutes);
+router.use("/listings", listingRoutes);
 
 module.exports = router;
