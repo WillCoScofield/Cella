@@ -1,27 +1,45 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
 import Listing from "../components/Listing";
-import Map from "../components/Map";
 // import SearchResultsContainer from "../components/SearchResultsContainer/SearchResultsContainer";
 import MapRender from "../components/MapRender";
-import { Container, Row, Col } from "reactstrap";
+import { Row, Col } from "reactstrap";
 import BodyContainer from "../components/BodyContainer/BodyContainer";
 import "../components/BodyContainer/BodyContainer.css"
 import SearchFilter from "../components/SearchFilter/SearchFilter"
-import API from "../utils/API"
+import API from "../utils/API";
+import { parse as parseQuery } from 'query-string';
 
 
 class Search extends Component {
   state = {
-    listName: "Warehouse",
-    listLocation: "Atlanta",
-    listImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0IyjG9GY-DYRCUxS9wYvIdjA6rzhjj8YJisFfyMmIfU0zmIKwMw",
+    results: [],
     listings: []
   };
 
   componentDidMount() {
     this.loadListings();
+    const { searchAddress } = parseQuery(this.props.location.search);
+    this.getLocations(searchAddress);
   };
+
+  getLocations = searchTerm => {
+    API.getGeo(searchTerm)
+      .then(res => {
+        if (res.data.status === "error") {
+          throw new Error(res.data);
+        }
+        const results = {
+          lat: res.data.results[0].geometry.location.lat,
+          lng: res.data.results[0].geometry.location.lng,
+          boundNElat: res.data.results[0].geometry.viewport.northeast.lat,
+          boundNElng: res.data.results[0].geometry.viewport.northeast.lng,
+          boundSWlat: res.data.results[0].geometry.viewport.southwest.lat,
+          boundSWlng: res.data.results[0].geometry.viewport.southwest.lng
+        }
+        this.setState({ results });
+      })
+      .catch(err => this.setState({ error: err.message }));
+  }
 
   loadListings = () => {
     API.getListings()
@@ -62,7 +80,7 @@ class Search extends Component {
 
 
           <Col sm="12" md="6" lg="6">
-            <MapRender />
+            <MapRender coords={this.state.results}/>
           </Col>
         </Row>
 

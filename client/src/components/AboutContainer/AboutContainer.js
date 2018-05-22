@@ -1,7 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { Container, Row, Col  } from 'reactstrap';
-import Navbar from "../Navbar";
 import "../AboutContainer/AboutContainer.css";
 
 
@@ -15,7 +12,7 @@ const AboutContainer = () => (
         <div className="row employee topEmployee">
             <div className="col-12">
                 <div className="">
-                    <img className="aboutPicLeft" src='./images/connor2About.jpg' />
+                    <img alt="" className="aboutPicLeft" src='./images/connor2About.jpg' />
                 </div>
                 <h2>Connor Scofield</h2>
                 <h4 className="jobText">FullStack Web Developer</h4>
@@ -27,14 +24,14 @@ const AboutContainer = () => (
                     laborum."
 
                       <div className="col-12 iconHold">
-                        <a href="https://www.linkedin.com/in/dorian-crawford-659482115/" target="_blank">
-                            <img className="icon" src='./images/LinkedIn.png' />LinkedIn
+                        <a href="https://www.linkedin.com/in/dorian-crawford-659482115/" target="_blank" rel="noopener noreferrer">
+                            <img alt="" className="icon" src='./images/LinkedIn.png' />LinkedIn
                         </a>
-                        <a href="https://github.com/dc887j" target="_blank">
-                            <img className="icon" src='./images/gitHub.png' />GitHub
+                        <a href="https://github.com/dc887j" target="_blank" rel="noopener noreferrer">
+                            <img alt="" className="icon" src='./images/gitHub.png' />GitHub
                         </a>
-                        <a href="mailto:dc887j@gmail.com" target="_blank">
-                            <img className="icon" src='./images/email.png' />Email
+                        <a href="mailto:dc887j@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <img alt="" className="icon" src='./images/email.png' />Email
                         </a>
                     </div>
                 </p>
@@ -46,7 +43,7 @@ const AboutContainer = () => (
         <div className="row employee">
             <div className="col-12">
                 <div className="">
-                    <img className="aboutPicRight" src='./images/dorian3About.jpg' />
+                    <img alt="" className="aboutPicRight" src='./images/dorian3About.jpg' />
                 </div>
                 <h2>Dorian Crawford</h2>
                 <h4 className="jobText">FrontEnd, React JS Developer | UX UI Designer</h4>
@@ -58,17 +55,17 @@ const AboutContainer = () => (
                     laborum."
 
                     <div className="col-12 iconHold">
-                        <a href="https://www.linkedin.com/in/dorian-crawford-659482115/" target="_blank">
-                            <img className="icon1" src='./images/LinkedIn.png' />LinkedIn
+                        <a href="https://www.linkedin.com/in/dorian-crawford-659482115/" target="_blank" rel="noopener noreferrer">
+                            <img alt="" className="icon1" src='./images/LinkedIn.png' />LinkedIn
                         </a>
-                        <a href="https://github.com/dc887j" target="_blank">
-                            <img className="icon" src='./images/gitHub.png' />GitHub
+                        <a href="https://github.com/dc887j" target="_blank" rel="noopener noreferrer">
+                            <img alt="" className="icon" src='./images/gitHub.png' />GitHub
                         </a>
-                        <a href="https://www.youtube.com/watch?v=ViUO7BNmcr0" target="_blank">
-                            <img className="icon" src='./images/YouTube.png' />Demo Reel
+                        <a href="https://www.youtube.com/watch?v=ViUO7BNmcr0" target="_blank" rel="noopener noreferrer">
+                            <img alt="" className="icon" src='./images/YouTube.png' />Demo Reel
                         </a>
-                        <a href="mailto:dc887j@gmail.com" target="_blank">
-                            <img className="icon" src='./images/email.png' />Email
+                        <a href="mailto:dc887j@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <img alt="" className="icon" src='./images/email.png' />Email
                         </a>
                     </div>
                 </p>
@@ -82,7 +79,7 @@ const AboutContainer = () => (
         <div className="row employee">
             <div className="col-12">
                 <div className="">
-                    <img className="aboutPicLeft" src='./images/justinAbout.jpg' />
+                    <img alt="" className="aboutPicLeft" src='./images/justinAbout.jpg' />
                 </div>
                 <h2>Justin Rodgers</h2>
                 <h4 className="jobText">FullStack Web Developer</h4>
@@ -94,14 +91,14 @@ const AboutContainer = () => (
                     laborum."
 
                     <div className="col-12 iconHold">
-                        <a href="https://www.linkedin.com/in/justincrywolf/" target="_blank">
-                            <img className="icon" src='./images/LinkedIn.png' />LinkedIn
+                        <a href="https://www.linkedin.com/in/justincrywolf/" target="_blank" rel="noopener noreferrer">
+                            <img alt="" className="icon" src='./images/LinkedIn.png' />LinkedIn
                         </a>
-                        <a href="https://github.com/justincrywolf" target="_blank">
-                            <img className="icon" src='./images/gitHub.png' />GitHub
+                        <a href="https://github.com/justincrywolf" target="_blank" rel="noopener noreferrer">
+                            <img alt="" className="icon" src='./images/gitHub.png' />GitHub
                         </a>
-                        <a href="mailto:justin@risecoop.com" target="_blank">
-                            <img className="icon" src='./images/email.png' />Email
+                        <a href="mailto:justin@risecoop.com" target="_blank" rel="noopener noreferrer">
+                            <img alt="" className="icon" src='./images/email.png' />Email
                         </a>
                     </div>
                 </p>
@@ -113,7 +110,7 @@ const AboutContainer = () => (
         <div className="row employee">
             <div className="col-12">
                 <div className="">
-                    <img className="aboutPicRight" src='./images/siyanAbout.jpg' />
+                    <img alt="" className="aboutPicRight" src='./images/siyanAbout.jpg' />
                 </div>
                 <h2>Siyan Zhou</h2>
                 <h4 className="jobText">FullStack Web Developer</h4>
@@ -125,14 +122,14 @@ const AboutContainer = () => (
                     laborum."
 
                     <div className="col-12 iconHold">
-                        <a href="https://www.linkedin.com/in/siyan-zhou-429854128" target="_blank">
-                            <img className="icon" src='./images/LinkedIn.png' />LinkedIn
+                        <a href="https://www.linkedin.com/in/siyan-zhou-429854128" target="_blank" rel="noopener noreferrer">
+                            <img alt="" className="icon" src='./images/LinkedIn.png' />LinkedIn
                         </a>
-                        <a href="https://github.com/SiyanZhou" target="_blank">
-                            <img className="icon" src='./images/gitHub.png' />GitHub
+                        <a href="https://github.com/SiyanZhou" target="_blank" rel="noopener noreferrer">
+                            <img alt="" className="icon" src='./images/gitHub.png' />GitHub
                         </a>
-                        <a href="mailto:szhou1101@gmail.com" target="_blank">
-                            <img className="icon" src='./images/email.png' />Email
+                        <a href="mailto:szhou1101@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <img alt="" className="icon" src='./images/email.png' />Email
                         </a>
                     </div>
                 </p>
@@ -144,7 +141,7 @@ const AboutContainer = () => (
         <div className="row employee">
             <div className="col-12">
                 <div className="">
-                    <img className="aboutPicLeft" src='./images/victorAbout.jpg' />
+                    <img alt="" className="aboutPicLeft" src='./images/victorAbout.jpg' />
                 </div>
                 <h2>Victor Hernandez</h2>
                 <h4 className="jobText">FrontEnd, React JS Developer</h4>
@@ -156,14 +153,14 @@ const AboutContainer = () => (
                     laborum."
 
                     <div className="col-12 iconHold">
-                        <a href="https://www.linkedin.com/in/victor-hernandez-71b25a156/" target="_blank">
-                            <img className="icon" src='./images/LinkedIn.png' />LinkedIn
+                        <a href="https://www.linkedin.com/in/victor-hernandez-71b25a156/" target="_blank" rel="noopener noreferrer">
+                            <img alt="" className="icon" src='./images/LinkedIn.png' />LinkedIn
                         </a>
-                        <a href="https://github.com/VictorHernandezzz" target="_blank">
-                            <img className="icon" src='./images/gitHub.png' />GitHub
+                        <a href="https://github.com/VictorHernandezzz" target="_blank" rel="noopener noreferrer">
+                            <img alt="" className="icon" src='./images/gitHub.png' />GitHub
                         </a>
-                        <a href="mailto:anthosedits@gmail.com" target="_blank">
-                            <img className="icon" src='./images/email.png' />Email
+                        <a href="mailto:anthosedits@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <img alt="" className="icon" src='./images/email.png' />Email
                         </a>
                     </div>
                 </p>

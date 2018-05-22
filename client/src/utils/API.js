@@ -1,22 +1,14 @@
-import React from "react";
+
 import axios from "axios";
 
-const key = process.env.GOOGLE_API;
+// const key = process.env.GOOGLE_API;
+const key = "AIzaSyAo3U3-CYQSA_L--3jjHzIIqBnngBiAMEU";
 let queryURL = "https://maps.googleapis.com/maps/api/geocode/json?address=Atlanta&key=" + key;
 
 export default {
 
-    getGeo: function () {
-        return axios.get(queryURL).then(function (response) {
-            let lat = response.data.results[0].geometry.location.lat;
-            let lng = response.data.results[0].geometry.location.lng;
-
-            let boundNElat = response.data.results[0].geometry.viewport.northeast.lat;
-            let boundNElng = response.data.results[0].geometry.viewport.northeast.lng;
-            let boundSWlat = response.data.results[0].geometry.viewport.southwest.lat;
-            let boundSWlng = response.data.results[0].geometry.viewport.southwest.lng;
-
-        })
+    getGeo: function( address ){
+        return axios.get(`${queryURL}&address=${address}`);
     },
 
     getListings: function () {

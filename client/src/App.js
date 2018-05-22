@@ -15,7 +15,7 @@ const App = () => (
   <Router>
 
     <div>
-      <Navbar />
+    <Navbar getLocations={this.getLocations} />
       <Wrapper>
 
   <Switch>
