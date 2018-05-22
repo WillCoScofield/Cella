@@ -5,6 +5,8 @@ import Navbar from "./components/Navbar";
 import Wrapper from "./components/Wrapper";
 import Search from "./pages/Search.js"
 import Home from "./pages/Home.js"
+import About from "./pages/About.js"
+
 
 const App = () => (
 
@@ -15,6 +17,7 @@ const App = () => (
       <Wrapper>
         <Route exact path="/" component={Home} />
         <Route exact path="/Search" component={Search} />
+        <Route exact path="/About" component={About} />
       </Wrapper>
 
       {/* <Footer /> */}

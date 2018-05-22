@@ -1,0 +1,53 @@
+body{
+    background-color:white;
+}
+
+.aboutPicLeft{
+    width: 40%;
+    float: left;
+    margin-right:3%;
+}
+
+.aboutPicRight{
+    width: 40%;
+    float: right;
+    margin-left:3%;
+}
+
+.rtText{
+margin-right: 7%;
+margin-top:4%;
+}
+
+.ltText{
+margin-left:7%;
+margin-top:4%;
+
+}
+
+.textBox{
+    font-family: "Montserrat", sans-serif;
+    color:black
+}
+
+
+
+.icon{
+
+    width: 3%;
+}
+
+.jobText{
+    font-size: 12px;
+    margin-top: -5px;
+    margin-bottom: 32px;  
+    color:#656464
+}
+
+
+
+.rightText{
+
+    float:right;
+}
+
