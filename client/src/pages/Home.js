@@ -8,10 +8,10 @@ import WhyUs from "../components/WhyUs/WhyUs";
 
 
 
+
 const Home = () => (
     <BodyContainer id="home-page">
         <div>
-
             <div className="row">
                 <div className="col-sm-6">
                     <HomeText />
