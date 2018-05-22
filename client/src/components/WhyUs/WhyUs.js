@@ -37,7 +37,7 @@ export default class WHyUs extends React.Component {
                     </Col>
                     <Col xs="12" md="3" lg="4">
                         <div className="why-us-item-div">
-                            <i id="message-box" class="material-icons">call</i>
+                            <i id="message-box" className="material-icons">call</i>
                             <h3>Let us do the talking</h3>
                             <p>We talk to the owners directly, because we value your time, and make sure you get the best deal.</p>
                         </div>

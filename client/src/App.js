@@ -8,6 +8,7 @@ import Home from "./pages/Home.js"
 import About from "./pages/About.js"
 
 
+
 const App = () => (
 
   <Router>
@@ -15,9 +16,12 @@ const App = () => (
     <div>
       <Navbar />
       <Wrapper>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/Search" component={Search} />
-        <Route exact path="/About" component={About} />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/search" component={Search} />
+          <Route exact path="/about" component={About} />
+          {/* 404 Routing Required */}
+        </Switch>
       </Wrapper>
 
       {/* <Footer /> */}
