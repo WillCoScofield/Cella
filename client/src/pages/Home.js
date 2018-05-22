@@ -5,6 +5,7 @@ import HomeImage from "../components/HomeImage";
 import HomeText from "../components/HomeText";
 import BodyContainer from "../components/BodyContainer/BodyContainer";
 import WhyUs from "../components/WhyUs/WhyUs";
+import StorageTypes from "../components/StorageTypes/StorageTypes";
 
 
 
@@ -23,6 +24,9 @@ const Home = () => (
             </div>
             <div>
                 <WhyUs />
+            </div>
+            <div>
+                <StorageTypes />
             </div>
         </div>
     </BodyContainer>

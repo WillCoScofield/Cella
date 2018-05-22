@@ -1,0 +1,20 @@
+.storageT-section{
+    background: url("../StorageTypes/images/4picPage.jpg") no-repeat;
+    background-size: cover;
+    height: 1200px;
+}
+
+.location{
+    /* font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color:#8B8B8B; */
+    width:85%;
+    margin: auto;    
+    display: block;
+}
+
+.locationB{
+    background: url("../StorageTypes/images/locationB.png") no-repeat;
+    background-size: cover;
+    height: 382px;
+}
