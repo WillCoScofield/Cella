@@ -1,6 +1,7 @@
 import React from "react";
 import "../NavSearch/NavSearch.css";
 
+
 const NavSearch = ({ children, ...props }) => (
     <div {...props}>
         {children}

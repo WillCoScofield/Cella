@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
 import "./MapRender.css";
-import pos from "../../utils/API.js"
+import API from "../../utils/API.js"
 
 const AnyReactComponent = ({ text }) => <div>{ text }</div>;
 export default class Map extends Component {
   static defaultProps = {
-    center: { lat: pos.lat, lng: pos.lng },
+    center: { lat: API.lat, lng: API.lng },
     zoom: 11
   }
+  
 render() {
     return (
       <div className='google-map'>
