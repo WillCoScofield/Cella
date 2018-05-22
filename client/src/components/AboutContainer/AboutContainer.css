@@ -30,11 +30,28 @@ margin-top:4%;
     color:black
 }
 
+.employee{
+   margin-bottom:45px; 
+}
 
+.topEmployee{
+    margin-top:20px;
+}
 
 .icon{
-
+margin-left:7%;
+margin-right: 1%;
     width: 3%;
+}
+
+.icon1{
+    margin-left:-1%;
+    margin-right: 1%;
+        width: 3%;
+}
+
+.iconHold{
+    margin-top:2%;
 }
 
 .jobText{
@@ -44,7 +61,12 @@ margin-top:4%;
     color:#656464
 }
 
-
+a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #808080;  
+}
 
 .rightText{
 
