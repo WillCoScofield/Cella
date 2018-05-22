@@ -14,7 +14,7 @@ const Navbar = props => (
     <SignUp />
 
     <SignIn />
-    
+
     <Link className="navbar-brand" to="/">
       <Logo />
     </Link>
@@ -38,7 +38,7 @@ const Navbar = props => (
         <li
           className="nav-item"
         >
-          <Link to="/Search" className="nav-link">
+          <Link to="/Contact" className="nav-link">
             Contact
           </Link>
         </li>

@@ -6,6 +6,7 @@ import Wrapper from "./components/Wrapper";
 import Search from "./pages/Search.js"
 import Home from "./pages/Home.js"
 import About from "./pages/About.js"
+import Contact from "./pages/Contact.js"
 
 
 
@@ -16,12 +17,15 @@ const App = () => (
     <div>
       <Navbar />
       <Wrapper>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/search" component={Search} />
-          <Route exact path="/about" component={About} />
-          {/* 404 Routing Required */}
-        </Switch>
+
+  <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/Search" component={Search} />
+        <Route exact path="/About" component={About} />
+        <Route exact path="/Contact" component={Contact} />
+      {/* 404 Routing Required */}
+      </Switch>   
+
       </Wrapper>
 
       {/* <Footer /> */}
