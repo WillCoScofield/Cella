@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Nav, ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem, Label, Input, section, span } from "reactstrap";
+import { Nav, ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem, Input } from "reactstrap";
 import NavSearchSmall from "../NavSearchSmall/NavSearchSmall";
 import "../SearchFilter/SearchFilter.css";
 
@@ -50,7 +50,7 @@ export default class SearchFilter extends React.Component {
                         <DropdownItem header>
                             <Input type="select" name="select" id="max-price-selector">
                                 <option>Select One</option>
-                                <option><p>less than $100</p></option>
+                                <option>less than $100</option>
                                 <option>less than $500</option>
                                 <option>less than $1000</option>
                                 <option>less than $2500</option>
@@ -63,7 +63,7 @@ export default class SearchFilter extends React.Component {
                         <DropdownItem header>
                             <Input type="select" name="select" id="square-feet-selector">
                                 <option>Select One</option>
-                                <option><p>less than 500</p></option>
+                                <option>less than 500</option>
                                 <option>500- 2500</option>
                                 <option>2500-5000</option>
                                 <option>5000 and more</option>
