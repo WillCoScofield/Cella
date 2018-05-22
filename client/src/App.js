@@ -18,6 +18,7 @@ const App = () => (
         <Route exact path="/" component={Home} />
         <Route exact path="/Search" component={Search} />
         <Route exact path="/About" component={About} />
+    
       </Wrapper>
 
       {/* <Footer /> */}

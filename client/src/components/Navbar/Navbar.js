@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../Logo";
 import "../Navbar/Navbar.css"
+import SignUp from "../LoginButton";
 
 
 
@@ -9,12 +10,13 @@ import "../Navbar/Navbar.css"
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 const Navbar = props => (
   <nav id="nav" className="navbar navbar-light navbar-expand-lg">
+    <SignUp />
     <Link className="navbar-brand" to="/">
       <Logo />
     </Link>
     <div>
       <ul className="navbar-nav">
-      
+
         <li
           className="nav-item"
         >

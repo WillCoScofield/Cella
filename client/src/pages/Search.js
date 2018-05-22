@@ -21,7 +21,7 @@ class Search extends Component {
     return (
       <BodyContainer id="search-page">
 
-
+      
         <Row>
           <Col sm="12" md="6" lg="6">
           <SearchFilter/>
