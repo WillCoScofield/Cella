@@ -4,6 +4,7 @@ import Logo from "../Logo";
 import "../Navbar/Navbar.css"
 import SignUp from "../SignUp";
 import SignIn from "../SignIn";
+import NavSearch from "../NavSearch";
 
 
 
@@ -50,6 +51,7 @@ const Navbar = props => (
           </Link>
         </li>
       </ul>
+      <NavSearch getLocations={props.getLocation} />
     </div>
   </nav>
 );

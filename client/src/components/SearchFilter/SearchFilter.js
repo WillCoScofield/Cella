@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Nav, ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem, Label, Input, section, span } from "reactstrap";
+import { Nav, ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem, Input } from "reactstrap";
 import NavSearchSmall from "../NavSearchSmall/NavSearchSmall";
 import "../SearchFilter/SearchFilter.css";
 

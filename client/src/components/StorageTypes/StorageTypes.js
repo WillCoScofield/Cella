@@ -7,7 +7,7 @@ const StorageTypes = props => (
             <Row>
                     <Col xs="12" className="locationB">
                     
-                    <img className="location" src='./images/LocationPic2.png' />
+                    <img className="location" alt="" src='./images/LocationPic2.png' />
                     </Col>
                 </Row>
                 <Row>
