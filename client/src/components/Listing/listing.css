@@ -39,3 +39,9 @@
     margin-top: 18px;
   }
   
+  .listingContainer{
+    overflow-y: scroll;
+    height: 100vh;
+    margin-top: 17px;
+
+  }

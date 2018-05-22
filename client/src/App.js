@@ -9,6 +9,7 @@ import About from "./pages/About.js"
 import Contact from "./pages/Contact.js"
 
 
+
 const App = () => (
 
   <Router>
@@ -16,11 +17,15 @@ const App = () => (
     <div>
       <Navbar />
       <Wrapper>
+
+  <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/Search" component={Search} />
         <Route exact path="/About" component={About} />
         <Route exact path="/Contact" component={Contact} />
-    
+      {/* 404 Routing Required */}
+      </Switch>   
+
       </Wrapper>
 
       {/* <Footer /> */}

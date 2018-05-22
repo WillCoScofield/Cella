@@ -19,7 +19,7 @@ const NavSearch = ({ children, ...props }) => (
                 type="submit"
                 onClick={props.handleFormSubmit}
                 className="btn">
-            <i class="material-icons">search</i>
+            <i className="material-icons">search</i>
             </button>
         </form>
     </div>
