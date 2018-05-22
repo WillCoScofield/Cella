@@ -1,0 +1,52 @@
+
+.why-us-section {
+    background: url("../WhyUs/images/blueBanner1.jpg");
+    background-size: cover;
+}
+
+.why-us-header{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.why-us-item-row {
+    align-content: center;
+}
+
+.why-us-item-div {
+    margin: 25px auto 100px auto;
+    width: 370px;
+    text-align: center;
+    color: white;
+}
+
+.why-us-item-div h3 {
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.why-us-item-div p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+#message-box {
+    font-size: 200px;
+}
+
+#pic-one {
+    height: 200px;
+    background: url("../WhyUs/images/circlesIcon.png") no-repeat;
+    background-size: 300px;
+    background-position: center;
+}
+
+#pic-two {
+    height: 200px;
+    background: url("../WhyUs/images/contractIcon3.png") no-repeat;
+    background-size: 275px;
+    background-position: center;
+}

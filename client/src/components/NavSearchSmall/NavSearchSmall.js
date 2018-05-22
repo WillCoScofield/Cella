@@ -1,13 +1,12 @@
 import React from "react";
-import "../NavSearch/NavSearch.css";
-
+import "../NavSearchSmall/NavSearchSmall.css";
 
 const NavSearch = ({ children, ...props }) => (
     <div {...props}>
         {children}
-        <form id="home-search-form" className="search">
+        <form id="search-search-form" className="search">
             <input
-                id="home-search-input"
+                id="search-search-input"
                 value={props.search}
                 onChange={props.handleInputChange}
                 name="searchAddress"
@@ -15,12 +14,13 @@ const NavSearch = ({ children, ...props }) => (
                 // className="form-control"
                 placeholder="Atlanta, GA"
             />
-                <button
-                    id="home-search-button"
-                    type="submit"
-                    onClick={props.handleFormSubmit}
-                    className="btn"
-                >Search</button>
+            <button
+                id="search-search-button"
+                type="submit"
+                onClick={props.handleFormSubmit}
+                className="btn">
+            <i class="material-icons">search</i>
+            </button>
         </form>
     </div>
 );
