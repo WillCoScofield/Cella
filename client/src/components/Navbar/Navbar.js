@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../Logo";
 import "../Navbar/Navbar.css"
-import SignUp from "../LoginButton";
+import SignUp from "../SignUp";
+import SignIn from "../SignIn";
 
 
 
@@ -11,6 +12,9 @@ import SignUp from "../LoginButton";
 const Navbar = props => (
   <nav id="nav" className="navbar navbar-light navbar-expand-lg">
     <SignUp />
+
+    <SignIn />
+    
     <Link className="navbar-brand" to="/">
       <Logo />
     </Link>
