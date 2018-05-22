@@ -1,0 +1,27 @@
+/* this is the search fitler navbar */
+.search-filter {
+    background: white;
+    border-bottom-right-radius: 100px;
+    padding: 10px 0px 10px 10px;
+    width: 700px;
+}
+
+
+/* search filter button */
+#search-filter-button {
+    background: #4181CC;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/* search filter drop down menu */
+
+#search-filter-menu {
+    width: 400px;
+}
+
+/* search range slider */
+
+
+      
+   

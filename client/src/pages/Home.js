@@ -10,21 +10,21 @@ import WhyUs from "../components/WhyUs/WhyUs";
 
 const Home = () => (
     <BodyContainer id="home-page">
-    <div>
+        <div>
 
-        <div class="row">
-            <div class="col-sm-6">
-            <HomeText />
+            <div class="row">
+                <div class="col-sm-6">
+                    <HomeText />
+                </div>
+
+                <div class="col-sm-6">
+                    <HomeImage />
+                </div>
             </div>
-
-
-            <div class="col-sm-6">
-            <HomeImage />
-          
+            <div>
+                <WhyUs />
             </div>
         </div>
-
-    </div>
     </BodyContainer>
 
 );

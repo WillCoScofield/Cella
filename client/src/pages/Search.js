@@ -4,9 +4,10 @@ import List from "../components/Listing";
 import Map from "../components/Map";
 import SearchResultsContainer from "../components/SearchResultsContainer/SearchResultsContainer";
 import MapRender from "../components/MapRender";
-
+import { Container, Row, Col } from "reactstrap";
 import BodyContainer from "../components/BodyContainer/BodyContainer";
 import "../components/BodyContainer/BodyContainer.css"
+import SearchFilter from "../components/SearchFilter/SearchFilter"
 
 
 class Search extends Component {
@@ -20,17 +21,16 @@ class Search extends Component {
     return (
       <BodyContainer id="search-page">
 
-        <div className="row">
-          <div className="col-sm-6">
-            <SearchResultsContainer />
-          </div>
+        <Row>
+          <Col sm="12" md="6" lg="6">
+          <SearchFilter/>
+          <SearchResultsContainer/>
+          </Col>
+          <Col sm="12" md="6" lg="6">
+          <MapRender/>
+          </Col>
+        </Row>
 
-          <div className="col-sm-6">
-            <MapRender />
-
-
-          </div>
-        </div>
       </BodyContainer>
     );
   }
