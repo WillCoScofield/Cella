@@ -12,7 +12,6 @@ export default class SearchFilter extends React.Component {
         this.state = {
             dropdownOpen: false,
             isOpen: false,
-            sliderValue: 500
         };
     }
     toggle() {
