@@ -1,9 +1,8 @@
 import React from "react";
 import "../NavSearchSmall/NavSearchSmall.css";
 
-const NavSearchSmall = ({ children, ...props }) => (
-    <div {...props}>
-        {children}
+const NavSearchSmall = props => (
+    <div>
         <form id="search-search-form" className="search">
             <input
                 id="search-search-input"

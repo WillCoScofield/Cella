@@ -17,6 +17,7 @@ class Search extends Component {
   };
 
   componentDidMount() {
+    console.log( this.props );
     this.loadListings();
     const { searchAddress } = parseQuery(this.props.location.search);
     this.getLocations(searchAddress);
@@ -50,7 +51,6 @@ class Search extends Component {
 
 
   render() {
-    console.log(this.state.listings);
     return (
       <BodyContainer id="search-page">
 

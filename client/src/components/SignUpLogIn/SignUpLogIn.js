@@ -80,25 +80,27 @@ export default class SignUpLogIn extends React.Component {
                                                 <Label for="examplePassword">Password</Label>
                                                 <Input type="password" name="password" id="Password" placeholder="" />
                                             </FormGroup>
-                                            <Button color="primary" onClick={this.toggle}>submit</Button>
+                                            {/* <Button color="primary" onClick={this.toggle}>submit</Button> */}
                                         </Form>
                                     </Col>
                                 </Row>
                             </TabPane>
                             <TabPane tabId="2">
                                 <Row>
-                                    <Col sm="12">
-                                        <Form>
-                                            <FormGroup>
-                                                <Label for="exampleEmail">Email</Label>
-                                                <Input type="email" name="email" id="Email" placeholder="" />
-                                            </FormGroup>
-                                            <FormGroup>
-                                                <Label for="examplePassword">Password</Label>
-                                                <Input type="password" name="password" id="Password" placeholder="" />
-                                            </FormGroup>
-                                        </Form>
-                                        <Button color="primary" onClick={this.toggle}>submit</Button>
+                                    <Col sm="6">
+                                        <Card body>
+                                            <CardTitle>Special Title Treatment</CardTitle>
+                                            <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+                                            {/* <Button>Go somewhere</Button> */}
+                                        </Card>
+                                    </Col>
+                                    <Col sm="6">
+                                        <Card body>
+                                            <CardTitle>Special Title Treatment</CardTitle>
+                                            <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+                                            {/* <Button>Go somewhere</Button> */}
+                                        </Card>
+
                                     </Col>
                                 </Row>
                             </TabPane>
