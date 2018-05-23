@@ -28,8 +28,7 @@ class NavSearch extends React.Component {
           type="submit"
           onClick={this.handleFormSubmit}
           className="btn">
-        <i className="material-icons">search</i>
-        </button>
+        Search</button>
       </form>
     );
   }

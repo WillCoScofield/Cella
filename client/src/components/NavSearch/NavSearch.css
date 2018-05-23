@@ -4,10 +4,11 @@
 
 #home-search-input {
     width: 75%;
-    height: 50px;
+    height: 75px;
     margin-left: 55px;
     padding: 5px 10px;
     float: left;
+    font-size: 27px;
     border-bottom: 1px gray solid;
     border-top: 1px gray solid;
     border-left: 1px gray solid;
@@ -35,9 +36,11 @@
     border: 0;
     padding: 0;
     cursor: pointer;
-    height: 50px;
+    height: 75px;
     width: 125px;
-    font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    font-family: 'Montserrat' sans-serif;
+    font-size: 23px;
+    font-weight: 300;
     color: #fff;
     text-transform: uppercase;
     background: #2F81D2;

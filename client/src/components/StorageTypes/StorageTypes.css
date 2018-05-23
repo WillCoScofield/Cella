@@ -8,7 +8,7 @@
     /* font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     color:#8B8B8B; */
-    width:85%;
+    width:50%;
     margin: auto;    
     display: block;
 }
@@ -16,5 +16,5 @@
 .locationB{
     background: url("../StorageTypes/images/locationB.png") no-repeat;
     background-size: cover;
-    height: 382px;
+    height: 215px;
 }
