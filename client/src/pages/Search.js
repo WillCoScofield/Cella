@@ -7,8 +7,6 @@ import BodyContainer from "../components/BodyContainer/BodyContainer";
 import "../components/BodyContainer/BodyContainer.css"
 import SearchFilter from "../components/SearchFilter/SearchFilter"
 import API from "../utils/API";
-import { parse as parseQuery } from 'query-string';
-
 
 class Search extends Component {
   state = {
@@ -18,7 +16,8 @@ class Search extends Component {
 
   componentDidMount() {
     this.loadListings();
-    const { searchAddress } = parseQuery(this.props.location.search);
+    const searchQuery = new URLSearchParams(this.props.location.search);
+    const searchAddress = searchQuery.get("searchAddress");
     this.getLocations(searchAddress);
   };
 
