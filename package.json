@@ -1,7 +1,7 @@
 {
-  "name": "mern",
+  "name": "cella",
   "version": "1.0.0",
-  "description": "Mern Demo",
+  "description": "The AirBnB for warehousing.",
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && yarn start:prod || yarn start:dev",
@@ -24,13 +24,7 @@
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "express": "^4.15.4",
-    "google-map-react": "^1.0.3",
     "mongoose": "^5.1.1",
-    "path": "^0.12.7",
-    "query-string": "^6.1.0",
-    "reactstrap": "^6.0.1"
-  },
-  "engines": {
-    "node": "9.7.1"
+    "path": "^0.12.7"
   }
 }
