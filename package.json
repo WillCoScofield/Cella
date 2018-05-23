@@ -1,15 +1,16 @@
 {
-  "name": "mern",
+  "name": "cella",
   "version": "1.0.0",
-  "description": "Mern Demo",
+  "description": "The AirBnB for warehousing.",
   "main": "server.js",
   "scripts": {
-    "server": "node server.js",
-    "client": "node scripts/start-client.js",
-    "start": "concurrently \"nodemon server.js\" \"npm run client\"",
-    "build": "node scripts/build.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "installDeps": "yarn && cd client && yarn",
+    "start": "if-env NODE_ENV=production && yarn start:prod || yarn start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "install": "cd client; yarn install;",
+    "build": "cd client && yarn build",
+    "heroku-postbuild": "yarn build",
     "seed": "node scripts/seedDB.js"
   },
   "author": "",
@@ -23,11 +24,9 @@
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "express": "^4.15.4",
-    "google-map-react": "^1.0.3",
     "jwt-decode": "^2.2.0",
     "mongoose": "^5.1.1",
     "path": "^0.12.7",
-    "query-string": "^6.1.0",
-    "reactstrap": "^6.0.1"
+    "if-env": "^1.0.4"
   }
 }
