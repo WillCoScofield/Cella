@@ -53,7 +53,7 @@ const Navbar = props => (
         <li
           className="nav-item"
         >
-        <SignUpLogIn className="signup-login"/>
+
         </li>
       </ul>
     </div>
