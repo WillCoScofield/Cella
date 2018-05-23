@@ -1,0 +1,22 @@
+.dropdown {
+    position: absolute;
+    top: 35px;
+    right: 50px;
+  }
+
+.dropdown.show {
+    position: absolute;
+    top: 35px !important;
+    right: -210px !important;
+}
+
+#drop-down-menu.show {
+    position: relative !important;
+    will-change: none;
+    transform: none;
+    top: -15px !important;
+    left: -215px !important;
+    right: 500px;
+    width: 400px;
+    float: none !important;
+}

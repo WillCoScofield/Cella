@@ -1,7 +1,7 @@
 import React from "react";
 import "../NavSearchSmall/NavSearchSmall.css";
 
-const NavSearch = ({ children, ...props }) => (
+const NavSearchSmall = ({ children, ...props }) => (
     <div {...props}>
         {children}
         <form id="search-search-form" className="search">
@@ -25,4 +25,4 @@ const NavSearch = ({ children, ...props }) => (
     </div>
 );
 
-export default NavSearch;
+export default NavSearchSmall;
