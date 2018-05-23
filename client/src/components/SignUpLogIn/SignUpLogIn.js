@@ -9,7 +9,10 @@ export default class SignUpLogIn extends React.Component {
 
         this.toggle = this.toggle.bind(this);
         this.state = {
-            dropdownOpen: false,
+            dropdownOpen: false
+        };
+        this.toggleTwo = this.toggleTwo.bind(this);
+        this.state = {
             activeTab: '1'
         };
     }
@@ -20,13 +23,15 @@ export default class SignUpLogIn extends React.Component {
         });
     }
 
-    // toggle(tab) {
-    //     if (this.state.activeTab !== tab) {
-    //         this.setState({
-    //             activeTab: tab
-    //         });
-    //     }
-    // }
+
+
+    toggleTwo(tab) {
+        if (this.state.activeTab !== tab) {
+            this.setState({
+                activeTab: tab
+            });
+        }
+    }
 
     render() {
         return (
@@ -44,14 +49,14 @@ export default class SignUpLogIn extends React.Component {
                             <NavItem>
                                 <NavLink
                                     className={classnames({ active: this.state.activeTab === '1' })}
-                                    onClick={() => { this.toggle('1'); }}>
+                                    onClick={() => { this.toggleTwo('1'); }}>
                                     Sign Up
                                 </NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink
                                     className={classnames({ active: this.state.activeTab === '2' })}
-                                    onClick={() => { this.toggle('2'); }}>
+                                    onClick={() => { this.toggleTwo('2'); }}>
                                     Login
                             </NavLink>
                             </NavItem>
@@ -95,6 +100,7 @@ export default class SignUpLogIn extends React.Component {
                                             <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
                                             {/* <Button>Go somewhere</Button> */}
                                         </Card>
+
                                     </Col>
                                 </Row>
                             </TabPane>

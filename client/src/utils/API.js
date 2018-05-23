@@ -7,7 +7,7 @@ let queryURL = "https://maps.googleapis.com/maps/api/geocode/json?key=" + key;
 
 export default {
 
-    getGeo: function( address ){
+    getGeo: function (address) {
         return axios.get(`${queryURL}&address=${address}`);
     },
 
@@ -24,5 +24,10 @@ export default {
     },
     saveListing: function (listingData) {
         return axios.post("/api/listings", listingData);
+    },
+
+    login: function (userData) {
+        return axios.post("/api/user/login", userData);
+
     }
 }

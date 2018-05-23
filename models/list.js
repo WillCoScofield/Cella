@@ -15,7 +15,7 @@ const listSchema = new Schema({
     Owner: { type: String, required: false },
     date: { type: Date, default: Date.now }
 });
-
+    
 const List = mongoose.model("List", listSchema);
 
 module.exports = List;
