@@ -75,7 +75,7 @@ export default class SignUpLogIn extends React.Component {
                                                 <Label for="examplePassword">Password</Label>
                                                 <Input type="password" name="password" id="Password" placeholder="" />
                                             </FormGroup>
-                                            <Button color="primary" onClick={this.toggle}>submit</Button>
+                                            {/* <Button color="primary" onClick={this.toggle}>submit</Button> */}
                                         </Form>
                                     </Col>
                                 </Row>
@@ -86,14 +86,14 @@ export default class SignUpLogIn extends React.Component {
                                         <Card body>
                                             <CardTitle>Special Title Treatment</CardTitle>
                                             <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-                                            <Button>Go somewhere</Button>
+                                            {/* <Button>Go somewhere</Button> */}
                                         </Card>
                                     </Col>
                                     <Col sm="6">
                                         <Card body>
                                             <CardTitle>Special Title Treatment</CardTitle>
                                             <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-                                            <Button>Go somewhere</Button>
+                                            {/* <Button>Go somewhere</Button> */}
                                         </Card>
                                     </Col>
                                 </Row>
