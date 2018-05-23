@@ -71,7 +71,7 @@ export default class SearchFilter extends React.Component {
                         </DropdownItem>
                     </DropdownMenu>
                 </ButtonDropdown>
-                <NavSearchSmall />
+                <NavSearchSmall getLocations={this.props.getLocation}/>
             </Nav>
         )
     }

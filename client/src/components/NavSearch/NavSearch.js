@@ -1,4 +1,5 @@
 import React from "react";
+import "../NavSearch/NavSearch.css";
 
 class NavSearch extends React.Component {
 
@@ -12,9 +13,9 @@ class NavSearch extends React.Component {
 
   render() {
     return (
-      <form id="search-search-form" className="search" action="/Search">
+      <form id="home-search-form" className="search" action="/Search">
         <input
-          id="search-search-input"
+          id="home-search-input"
           value={this.state.search}
           onChange={this.handleInputChange}
           name="searchAddress"

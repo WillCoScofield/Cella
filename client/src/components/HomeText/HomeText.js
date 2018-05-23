@@ -4,7 +4,7 @@ import NavSearch from "../NavSearch";
 
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
-const HomeText = () => (
+const HomeText = (props) => (
   <div className="HomeTextDiv">
     <h1>
       We help you connect with Industrial Storage Owners For all your Traditional & Non-Traditional Storage Needs
@@ -15,7 +15,7 @@ const HomeText = () => (
       <br />Your temporary or permanent storage facility is one search away!
     </h3>
     <br />
-    <NavSearch/>
+    <NavSearch getLocations={props.getLocation}/>
   </div>
 );
 
