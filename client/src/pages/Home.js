@@ -1,6 +1,4 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import Wrapper from "../components/Navbar";
 import HomeImage from "../components/HomeImage";
 import HomeText from "../components/HomeText";
 import BodyContainer from "../components/BodyContainer/BodyContainer";
@@ -8,17 +6,15 @@ import WhyUs from "../components/WhyUs/WhyUs";
 import StorageTypes from "../components/StorageTypes/StorageTypes";
 
 
-
 const Home = () => (
     <BodyContainer id="home-page">
         <div>
-
-            <div class="row">
-                <div class="col-sm-6">
+            <div className="row">
+                <div className="col-sm-6">
                     <HomeText />
                 </div>
 
-                <div class="col-sm-6">
+                <div className="col-sm-6">
                     <HomeImage />
                 </div>
             </div>

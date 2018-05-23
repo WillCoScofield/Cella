@@ -64,7 +64,51 @@ const listSeed = [
 
     },
     {
-        type: "Freezer Space",
+        type: "Warehouse",
+        image: "http://www.commercialpropertiesphilippines.com/wp-content/uploads/2016/01/Industrial-Lot-With-Warehouse-for-Sale-in-Bagumbayan-Taguig.jpg",
+        SquareFeet: 1000,
+        Price: 10000,
+        Address: "123 Parking Lot Place",
+        Description: "It's definitely not a parking lot.",
+        YearBuilt: "1998",
+        Features: "Features etc...",
+        Latitude: 40.5033640,
+        Longitude: -0.1276250,
+        date: new Date(Date.now())
+
+    },
+    {
+        type: "Storage Unit",
+        image: "http://www.commercialpropertiesphilippines.com/wp-content/uploads/2016/01/Industrial-Lot-With-Warehouse-for-Sale-in-Bagumbayan-Taguig.jpg",
+        SquareFeet: 1000,
+        Price: 10000,
+        Address: "123 Parking Lot Place",
+        Description: "It's definitely not a parking lot.",
+        YearBuilt: "1998",
+        Features: "Features etc...",
+        Latitude: 36.5033640,
+        Longitude: -10.1276250,
+        date: new Date(Date.now())
+
+    },
+
+    {
+        type: "Plot of Land",
+        image: "http://www.commercialpropertiesphilippines.com/wp-content/uploads/2016/01/Industrial-Lot-With-Warehouse-for-Sale-in-Bagumbayan-Taguig.jpg",
+        SquareFeet: 1000,
+        Price: 10000,
+        Address: "123 Parking Lot Place",
+        Description: "It's definitely not a parking lot.",
+        YearBuilt: "1998",
+        Features: "Features etc...",
+        Latitude: 24.5033640,
+        Longitude: -18.1276250,
+        date: new Date(Date.now())
+
+    },
+
+    {
+        type: "Agriculture Facility",
         image: "http://www.commercialpropertiesphilippines.com/wp-content/uploads/2016/01/Industrial-Lot-With-Warehouse-for-Sale-in-Bagumbayan-Taguig.jpg",
         SquareFeet: 1000,
         Price: 10000,
@@ -77,6 +121,37 @@ const listSeed = [
         date: new Date(Date.now())
 
     },
+
+    {
+        type: "Parking Lot",
+        image: "http://www.commercialpropertiesphilippines.com/wp-content/uploads/2016/01/Industrial-Lot-With-Warehouse-for-Sale-in-Bagumbayan-Taguig.jpg",
+        SquareFeet: 1000,
+        Price: 10000,
+        Address: "123 Parking Lot Place",
+        Description: "It's definitely not a parking lot.",
+        YearBuilt: "1998",
+        Features: "Features etc...",
+        Latitude: 44.5033640,
+        Longitude: -36.1276250,
+        date: new Date(Date.now())
+
+    },
+
+    {
+        type: "Freezer Space",
+        image: "http://www.commercialpropertiesphilippines.com/wp-content/uploads/2016/01/Industrial-Lot-With-Warehouse-for-Sale-in-Bagumbayan-Taguig.jpg",
+        SquareFeet: 1000,
+        Price: 10000,
+        Address: "123 Parking Lot Place",
+        Description: "It's definitely not a parking lot.",
+        YearBuilt: "1998",
+        Features: "Features etc...",
+        Latitude: 33.5033640,
+        Longitude: -18.1276250,
+        date: new Date(Date.now())
+
+    },
+
 
 
 ]

@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../Logo";
 import "../Navbar/Navbar.css"
+import SignUp from "../SignUp";
+import SignIn from "../SignIn";
+import NavSearch from "../NavSearch";
 
 
 
@@ -9,12 +12,16 @@ import "../Navbar/Navbar.css"
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 const Navbar = props => (
   <nav id="nav" className="navbar navbar-light navbar-expand-lg">
+    <SignUp />
+
+    <SignIn />
+
     <Link className="navbar-brand" to="/">
       <Logo />
     </Link>
     <div>
       <ul className="navbar-nav">
-      
+
         <li
           className="nav-item"
         >
@@ -32,7 +39,7 @@ const Navbar = props => (
         <li
           className="nav-item"
         >
-          <Link to="/Search" className="nav-link">
+          <Link to="/Contact" className="nav-link">
             Contact
           </Link>
         </li>
@@ -44,6 +51,7 @@ const Navbar = props => (
           </Link>
         </li>
       </ul>
+      <NavSearch getLocations={props.getLocation} />
     </div>
   </nav>
 );
