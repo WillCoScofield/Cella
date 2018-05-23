@@ -24,14 +24,15 @@ const AboutContainer = () => (
                     laborum."
 
                       <div className="col-12 iconHold">
-                        <a href="https://www.linkedin.com/in/dorian-crawford-659482115/" target="_blank" rel="noopener noreferrer">
-                            <img alt="" className="icon" src='./images/LinkedIn.png' />LinkedIn
+                        <a href="https://www.linkedin.com/in/connor-scofield-06213698/" target="_blank">
+                            <img className="icon" src='./images/LinkedIn.png' />LinkedIn
                         </a>
-                        <a href="https://github.com/dc887j" target="_blank" rel="noopener noreferrer">
-                            <img alt="" className="icon" src='./images/gitHub.png' />GitHub
+                        <a href="https://github.com/WillCoScofield" target="_blank">
+                            <img className="icon" src='./images/gitHub.png' />GitHub
                         </a>
-                        <a href="mailto:dc887j@gmail.com" target="_blank" rel="noopener noreferrer">
-                            <img alt="" className="icon" src='./images/email.png' />Email
+                        <a href="wscofield@elon.edu" target="_blank">
+                            <img className="icon" src='./images/email.png' />Email
+
                         </a>
                     </div>
                 </p>
