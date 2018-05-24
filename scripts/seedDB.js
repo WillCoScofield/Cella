@@ -16,8 +16,10 @@ const listSeed = [
         Description: "It's pretty nice",
         YearBuilt: "1998",
         Features: "Features etc...",
-        Latitude: 33.7764020,
-        Longitude: -84.3892600,
+        Location: {
+            type: "Point",
+            coordinates:[33.775243, -84.418786]
+        },
         date: new Date(Date.now())
 
     },
@@ -30,8 +32,10 @@ const listSeed = [
         Description: "It's definitely not a parking lot.",
         YearBuilt: "1998",
         Features: "Features etc...",
-        Latitude: 60.7764020,
-        Longitude: -0.3892600,
+        Location: {
+            type: "Point",
+            coordinates:[33.775243, -84.418786]
+        },
         date: new Date(Date.now())
 
     },
@@ -44,8 +48,10 @@ const listSeed = [
         Description: "It's definitely not a parking lot.",
         YearBuilt: "1998",
         Features: "Features etc...",
-        Latitude: 46.7764020,
-        Longitude: -84.3892600,
+        Location: {
+            type: "Point",
+            coordinates:[33.775243, -84.418786]
+        },
         date: new Date(Date.now())
 
     },
@@ -58,8 +64,10 @@ const listSeed = [
         Description: "It's definitely not a parking lot.",
         YearBuilt: "1998",
         Features: "Features etc...",
-        Latitude: 40.7764020,
-        Longitude: -84.3892600,
+        Location: {
+            type: "Point",
+            coordinates:[33.7563339, -84.384841]
+        },
         date: new Date(Date.now())
 
     },
@@ -72,8 +80,10 @@ const listSeed = [
         Description: "It's definitely not a parking lot.",
         YearBuilt: "1998",
         Features: "Features etc...",
-        Latitude: 40.5033640,
-        Longitude: -0.1276250,
+        Location: {
+            type: "Point",
+            coordinates:[33.7981744, -84.37080499999999]
+        },
         date: new Date(Date.now())
 
     },
@@ -86,8 +96,10 @@ const listSeed = [
         Description: "It's definitely not a parking lot.",
         YearBuilt: "1998",
         Features: "Features etc...",
-        Latitude: 36.5033640,
-        Longitude: -10.1276250,
+        Location: {
+            type: "Point",
+            coordinates:[33.7873031, -84.39239479999999]
+        },
         date: new Date(Date.now())
 
     },
@@ -101,8 +113,10 @@ const listSeed = [
         Description: "It's definitely not a parking lot.",
         YearBuilt: "1998",
         Features: "Features etc...",
-        Latitude: 24.5033640,
-        Longitude: -18.1276250,
+        Location: {
+            type: "Point",
+            coordinates:[33.775243, -84.418786]
+        },
         date: new Date(Date.now())
 
     },
@@ -116,8 +130,10 @@ const listSeed = [
         Description: "It's definitely not a parking lot.",
         YearBuilt: "1998",
         Features: "Features etc...",
-        Latitude: 51.5033640,
-        Longitude: -0.1276250,
+        Location: {
+            type: "Point",
+            coordinates:[33.7234699, -84.4129791]
+        },
         date: new Date(Date.now())
 
     },
@@ -131,8 +147,10 @@ const listSeed = [
         Description: "It's definitely not a parking lot.",
         YearBuilt: "1998",
         Features: "Features etc...",
-        Latitude: 44.5033640,
-        Longitude: -36.1276250,
+        Location: {
+            type: "Point",
+            coordinates:[33.7469027, -84.36550179999999]
+        },
         date: new Date(Date.now())
 
     },
@@ -146,8 +164,10 @@ const listSeed = [
         Description: "It's definitely not a parking lot.",
         YearBuilt: "1998",
         Features: "Features etc...",
-        Latitude: 33.5033640,
-        Longitude: -18.1276250,
+        Location: {
+            type: "Point",
+            coordinates:[33.7471951, -84.3920049]
+        },
         date: new Date(Date.now())
 
     },

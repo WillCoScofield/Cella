@@ -9,6 +9,19 @@ module.exports = {
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
   },
+  findByCoords: function (req, res) {
+    const { lngSW, latSW, lngNE, latNE } = req.params;
+    db.List.find({
+      loc: { $geoWithin: { $box:  [ [ lngSW, latSW ], [ lngNE, latNE ] ] } }
+    })
+    .then(listings => {
+      res.json( listings );
+    })
+    .catch(err => {
+      console.log( "List.findByCoords: ", err );
+      res.json( err );
+    });
+  },
   findById: function(req, res) {
     db.List
       .findById(req.params.id)
