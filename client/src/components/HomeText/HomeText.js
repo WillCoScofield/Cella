@@ -5,7 +5,7 @@ import NavSearch from "../NavSearch";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 const HomeText = (props) => (
-  <div className="HomeTextDiv">
+  <div className="HomeTextDiv animated slideInUp">
     <h1>
       We help you connect with Industrial Storage Owners For all your Traditional & Non-Traditional Storage Needs
     </h1>

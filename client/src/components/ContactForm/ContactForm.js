@@ -1,9 +1,10 @@
 import React from 'react';
 import { Button, Label, Form, FormGroup, Input } from 'reactstrap';
+import "./ContactForm.css";
 
 const ContactForm = props => (
-
-    <div>
+<div className=" container formMargin animated slideInUp">
+    <div className="formContainer">
         <h2>Contact Us!</h2>
         <Form>
             <FormGroup>
@@ -26,6 +27,8 @@ const ContactForm = props => (
         </Form>
 
     </div>
+</div>
+
 );
 
 
