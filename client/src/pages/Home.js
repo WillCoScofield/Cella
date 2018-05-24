@@ -4,7 +4,7 @@ import HomeText from "../components/HomeText";
 import BodyContainer from "../components/BodyContainer/BodyContainer";
 import WhyUs from "../components/WhyUs/WhyUs";
 import StorageTypes from "../components/StorageTypes/StorageTypes";
-import { login } from "../components/Auth/Auth"
+
 
 
 const Home = () => (
@@ -12,7 +12,7 @@ const Home = () => (
         <div>
             <div className="row">
                 <div className="col-sm-6">
-                    <button onClick={login}> Click to Login or Signup </button>
+                 
                     <HomeText />
                 </div>
 
