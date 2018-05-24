@@ -1,24 +1,42 @@
 .formContainer{
     background-color:white;
-    border-radius: 25px;
+    /* border-radius: 25px; */
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
-    
 
 }
 
-.formBack{
-    background-color:green;
-    height: 100%;
-
-}
-
-.formMargin{
-    /* margin-top:30%; */
+#contact-header {
+    color: black;
+    text-align: center;
 }
 
 #contactBox{
-    margin-top:100px;
+    margin-top:25px;
+}
+
+#label {
+    color: gray;
+}
+
+#contact-form-button {
+    background-color: #2F81D2;
+    border-radius: 0px;
+    border: none;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+
+#contact-form-button:hover {
+    background-color: #205C98;
+    border-radius: none;
+    border: none;
 }
