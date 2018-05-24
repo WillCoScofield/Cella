@@ -12,6 +12,7 @@ const AboutContainer = () => (
     <div className="row employee topEmployee animated zoomIn">
             <div className="col-12">
                 <h1 className="aboutHead">ABOUT US</h1>
+                <hr/>
             </div>
             
         </div>
@@ -23,7 +24,7 @@ const AboutContainer = () => (
                 </div>
                 <div className=" jobContainer">
                 <h2>Connor Scofield</h2>
-                <h4 className="jobText ">FullStack Web Developer</h4>
+                <h4 className="jobText "> BackEnd | Project Lead / FullStack Web Developer </h4>
                 <p className="">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

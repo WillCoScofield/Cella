@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Container } from 'reactstrap';
 import ContactForm from "../components/ContactForm";
 import "../components/ContactForm/ContactForm.css";
 import BodyContainer from "../components/BodyContainer/BodyContainer";
