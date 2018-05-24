@@ -50,3 +50,25 @@
     text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
     margin-top: 90px;
 }
+
+#home-search-button:hover {
+    overflow: visible;
+    position: relative;
+    float: left;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 75px;
+    width: 125px;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 23px;
+    font-weight: 300;
+    color: #fff;
+    text-transform: uppercase;
+    background: #205C98;
+    -moz-border-radius: 0 3px 3px 0;
+    -webkit-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;      
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+    margin-top: 90px;
+}

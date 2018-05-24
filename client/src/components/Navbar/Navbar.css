@@ -11,10 +11,35 @@
 }
 
 nav a {
-  margin-left: 60px;
+  margin-left: 10px !important;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 22px;
   color: #808080;
+}
+
+nav a:first-child {
+  margin-left: 0px;
+}
+
+nav a:last-child {
+  margin-right: 10px;
+}
+
+#login-button {
+  vertical-align: middle;
+  margin-top: 8px;
+  background-color: #4181CC;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+}
+
+#login-button:hover {
+  vertical-align: middle;
+  margin-top: 8px;
+  background-color: #205C98;
+  border: none;
+  color: white;
 }
 

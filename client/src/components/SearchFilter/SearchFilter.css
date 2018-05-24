@@ -14,6 +14,13 @@
     margin-left: 50px;
     margin-right: 50px;
 }
+
+#search-filter-button:hover {
+    background: #205C98;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
 /* search filter drop down menu */
 
 #search-filter-menu {
@@ -21,7 +28,4 @@
 }
 
 /* search range slider */
-
-
-      
    

@@ -33,7 +33,7 @@ const Navbar = props => (
         </li>
        
         <li className="nav-item">
-          <button onClick={login}> Click to Login or Signup </button>
+          <button id="login-button" onClick={login}>SignUp/Login</button>
         </li>
       </ul>
     </div>
