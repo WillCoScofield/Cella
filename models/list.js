@@ -10,8 +10,10 @@ const listSchema = new Schema({
     Description: { type: String, required: true },
     YearBuilt: { type: String, required: true },
     Features: { type: String, required: true },
-    Latitude: { type: Number, required: true },
-    Longitude: { type: Number, required: true },
+    Location: {
+        type: {type: String},
+        coordinates:[]
+    },
     Owner: { type: String, required: false },
     date: { type: Date, default: Date.now }
 });

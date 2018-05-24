@@ -36,10 +36,12 @@ class Search extends Component {
           boundSWlat: res.data.results[0].geometry.viewport.southwest.lat,
           boundSWlng: res.data.results[0].geometry.viewport.southwest.lng
         }
+        console.log(results);
         this.setState({ results });
       })
       .catch(err => this.setState({ error: err.message }));
   }
+  
 
   loadListings = () => {
     API.getListings()
