@@ -12,7 +12,7 @@ module.exports = {
   findByCoords: function (req, res) {
     const { lngSW, latSW, lngNE, latNE } = req.params;
     db.List.find({
-      loc: { $geoWithin: { $box:  [ [ lngSW, latSW ], [ lngNE, latNE ] ] } }
+      location: { $geoWithin: { $box:  [ [ lngSW, latSW ], [ lngNE, latNE ] ] } }
     })
     .then(listings => {
       res.json( listings );
