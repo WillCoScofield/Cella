@@ -5,18 +5,26 @@ import "../AboutContainer/AboutContainer.css";
 const AboutContainer = () => (
     <div>
         
-    
+    <div className="fluid-container aboutBody">
     
     <div className="container">
 
-        <div className="row employee topEmployee">
+    <div className="row employee topEmployee animated zoomIn">
+            <div className="col-12">
+                <h1 className="aboutHead">ABOUT US</h1>
+            </div>
+            
+        </div>
+
+        <div className="row employee topEmployee animated fadeInRight">
             <div className="col-12">
                 <div className="">
                     <img alt="" className="aboutPicLeft" src='./images/connor2About.jpg' />
                 </div>
+                <div className=" jobContainer">
                 <h2>Connor Scofield</h2>
-                <h4 className="jobText">FullStack Web Developer</h4>
-                <p>
+                <h4 className="jobText ">FullStack Web Developer</h4>
+                <p className="">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -36,18 +44,19 @@ const AboutContainer = () => (
                         </a>
                     </div>
                 </p>
+                </div>
             </div>
             
         </div>
 
 
-        <div className="row employee">
+        <div className="row employee animated fadeInLeft">
             <div className="col-12">
                 <div className="">
                     <img alt="" className="aboutPicRight" src='./images/dorian3About.jpg' />
                 </div>
                 <h2>Dorian Crawford</h2>
-                <h4 className="jobText">FrontEnd, React JS Developer | UX UI Designer</h4>
+                <h4 className="jobText">FrontEnd / React JS Developer | UX UI Designer</h4>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -77,7 +86,7 @@ const AboutContainer = () => (
 
 
 
-        <div className="row employee">
+        <div className="row employee animated fadeInRight">
             <div className="col-12">
                 <div className="">
                     <img alt="" className="aboutPicLeft" src='./images/justinAbout.jpg' />
@@ -108,7 +117,7 @@ const AboutContainer = () => (
         </div>
 
 
-        <div className="row employee">
+        <div className="row employee animated fadeInLeft">
             <div className="col-12">
                 <div className="">
                     <img alt="" className="aboutPicRight" src='./images/siyanAbout.jpg' />
@@ -139,13 +148,13 @@ const AboutContainer = () => (
         </div>
 
 
-        <div className="row employee">
+        <div className="row employee animated fadeInRight">
             <div className="col-12">
                 <div className="">
-                    <img alt="" className="aboutPicLeft" src='./images/victorAbout.jpg' />
+                    <img alt="" className="aboutPicLeft" src='./images/victorAbout2.jpg' />
                 </div>
                 <h2>Victor Hernandez</h2>
-                <h4 className="jobText">FrontEnd, React JS Developer</h4>
+                <h4 className="jobText">FrontEnd / React JS Developer</h4>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -172,6 +181,8 @@ const AboutContainer = () => (
 
 
 
+    </div>
+    
     </div>
     
     </div>

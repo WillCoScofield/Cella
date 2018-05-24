@@ -1,0 +1,24 @@
+.formContainer{
+    background-color:white;
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+
+}
+
+.formBack{
+    background-color:green;
+    height: 100%;
+
+}
+
+.formMargin{
+    /* margin-top:30%; */
+}
+
+#contactBox{
+    margin-top:100px;
+}

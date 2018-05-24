@@ -7,7 +7,7 @@ import "../Navbar/Navbar.css"
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 const Navbar = props => (
-  <nav id="nav" className="navbar navbar-light navbar-expand-lg">
+  <nav id="nav" className="navbar navbar-light navbar-expand-lg animated fadeIn">
     {/* <SignUp />
 
     <SignIn /> */}
