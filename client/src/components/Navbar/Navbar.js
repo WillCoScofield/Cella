@@ -2,10 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../Logo";
 import "../Navbar/Navbar.css"
-import SignUp from "../SignUp";
-import SignIn from "../SignIn";
-import NavSearch from "../NavSearch";
-import SignUpLogIn from "../SignUpLogIn/SignUpLogIn"
 
 
 

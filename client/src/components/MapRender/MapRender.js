@@ -4,8 +4,6 @@ import "./MapRender.css";
 import MyGreatPlace from '../MyGreatPlace/my_great_place.js';
 import shouldPureComponentUpdate from 'react-pure-render/function';
 
-const TestComp = ( props ) => <h1>{props.children}</h1>;
-
 class Map extends React.Component {
 
   shouldComponentUpdate = shouldPureComponentUpdate;
@@ -15,11 +13,12 @@ class Map extends React.Component {
 
     return ( <div className="google-map">
         <GoogleMapReact
+        bootstrapURLKeys={{key: "AIzaSyAo3U3-CYQSA_L--3jjHzIIqBnngBiAMEU"}}
           defaultCenter={{
             lat: coords.lat,
             lng: coords.lng
           }}
-          defaultZoom={15}
+          defaultZoom={14}
         >
         <MyGreatPlace lat={coords.lat} lng={coords.lng} text={'A'} /* Kreyser Avrora */ />
         </GoogleMapReact>
